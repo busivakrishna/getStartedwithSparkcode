@@ -12,10 +12,10 @@ object InitialGitInteg {
 
     // Replace Key with your AWS account key (You can find this on IAM
     spark.sparkContext
-      .hadoopConfiguration.set("fs.s3a.access.key", "AKIAXWVFJ5UJAAFXQ25Y")
+      .hadoopConfiguration.set("fs.s3a.access.key", "abcdef")
     // Replace Key with your AWS secret key (You can find this on IAM
     spark.sparkContext
-      .hadoopConfiguration.set("fs.s3a.secret.key", "qzFVEwX2vwbwA0S2KDEbe9CxMHfk6qfnesRwmPYj")
+      .hadoopConfiguration.set("fs.s3a.secret.key", "abcdef")
     spark.sparkContext
       .hadoopConfiguration.set("fs.s3a.endpoint", "s3.amazonaws.com")
 
