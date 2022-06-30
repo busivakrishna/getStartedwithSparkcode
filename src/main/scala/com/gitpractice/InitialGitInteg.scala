@@ -19,6 +19,7 @@ object InitialGitInteg {
     spark.sparkContext
       .hadoopConfiguration.set("fs.s3a.endpoint", "s3.amazonaws.com")
 
+    //Reading csv data
     //Step 2 - Read the products.csv
     val ds = spark.read
       .option("header",true)
